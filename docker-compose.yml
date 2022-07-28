@@ -1,0 +1,7 @@
+version: "3"
+services:
+   alisher_nginx:
+      image: 740657376690.dkr.ecr.us-east-1.amazonaws.com/nginx:$version
+      ports:
+         - "80:80"
+
